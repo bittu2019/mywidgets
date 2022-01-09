@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Radio1"
+    android:orientation="vertical"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="vertical">
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rdb_java"
+                android:text="JAVA">
+            </androidx.appcompat.widget.AppCompatRadioButton>
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rdb_Corejava"
+                android:text="CORE JAVA">
+            </androidx.appcompat.widget.AppCompatRadioButton>
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rdb_python"
+                android:text="PYTHON">
+            </androidx.appcompat.widget.AppCompatRadioButton>
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rdb_android"
+                android:text="ANDROID">
+            </androidx.appcompat.widget.AppCompatRadioButton>
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rdb_angular"
+                android:text="angular">
+            </androidx.appcompat.widget.AppCompatRadioButton>
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Click me"
+                android:textAllCaps="false"
+                android:id="@+id/btn_myclick">
+            </androidx.appcompat.widget.AppCompatButton>
+        </RadioGroup>
+
+    </LinearLayout>
+
+</LinearLayout>

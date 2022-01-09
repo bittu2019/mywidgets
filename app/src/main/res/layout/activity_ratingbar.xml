@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ratingme"
+    android:gravity="center"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.AppCompatRatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rb_ratingbar"
+        android:numStars="5"
+        android:rating="3.5"
+        android:progressTint="#cc0099"
+        android:progressBackgroundTint="#999999">
+    </androidx.appcompat.widget.AppCompatRatingBar>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@drawable/roundedcorner"
+        android:text="Rate Us"
+        android:textAllCaps="false"
+        android:id="@+id/btn_rate">
+    </androidx.appcompat.widget.AppCompatButton>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:id="@+id/tv_showrating"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:textColor="#cc0099">
+    </androidx.appcompat.widget.AppCompatTextView>
+
+</LinearLayout>

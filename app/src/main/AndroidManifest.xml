@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mywidgets">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Mywidgets">
+        <activity
+            android:name=".Secondtime"
+            android:exported="false" />
+        <activity
+            android:name=".Progressbarme"
+            android:exported="false" />
+        <activity
+            android:name=".Seekbarbyme"
+            android:exported="false" />
+        <activity
+            android:name=".Ratingme"
+            android:exported="false" />
+        <activity
+            android:name=".Webviewme"
+            android:exported="false" />
+        <activity
+            android:name=".Alert"
+            android:exported="false" />
+        <activity
+            android:name=".Spinner1"
+            android:exported="false" />
+        <activity
+            android:name=".Radio1"
+            android:exported="false" />
+        <activity
+            android:name=".Checkbox"
+            android:exported="false" />
+        <activity
+            android:name=".Toggle"
+            android:exported="false" />
+        <activity
+            android:name=".Youtube"
+            android:exported="false" />
+        <activity
+            android:name=".Datepicker"
+            android:exported="false" />
+        <activity
+            android:name=".Timepicker"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
